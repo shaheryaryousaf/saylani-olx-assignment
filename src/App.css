@@ -1,0 +1,324 @@
+/* ========================== */
+/* Header */
+/* ========================== */
+header{
+  box-shadow:0 1px 4px 0 rgba(0, 0, 0, .1) !important;
+}
+
+header .lg-light{
+  background-color: rgba(0, 47, 52, .03) !important;
+}
+
+header .login-link,
+header .login-link:hover {
+  color: #002f34 !important;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
+}
+
+header .sell-link{
+  font-family: 'Roboto', sans-serif;
+  border: 5px solid #FFCE32;
+  border-color: #FFCE32 #23E5DB #3A77FF;
+  background-color: white;
+  padding: 4px 20px !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  border-radius: 50px;
+  color: black !important;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2),
+  0 1px 10px 0 rgba(0, 0, 0, .12),
+  0 4px 5px 0 rgba(0, 0, 0, .14);
+}
+
+header .navbar-nav .input-group {
+  width: 100%;
+  border: 2px solid;
+}
+
+.input-group>.input-group-append>.btn{
+  border-radius: 0px;
+  background-color: #002F34;
+  border-color: #002F34;
+  color: white;
+}
+
+.input-group>.form-control:not(:last-child){
+  border: 0px;
+  font-size: 14px;
+}
+
+/* ========================== */
+/* Sub Header */
+/* ========================== */
+.sub-header{
+  padding: 10px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.sub-header ul{
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.sub-header ul li{
+  display: inline;
+  margin: 0px 8px;
+}
+
+.sub-header ul li a{
+  color: #002f34;
+  font-size: 14px;
+}
+
+.sub-header ul li a:hover{
+  color: gray;
+  text-decoration: none;
+}
+
+/* ========================== */
+/* Footer */
+/* ========================== */
+footer{
+  background-color:#EBEEEF !important;
+  border-top: 1px solid rgba(0, 47, 52, .2);
+  padding: 16px 0;
+}
+
+footer ul{
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+footer ul li:first-of-type {
+  font-weight: 500;
+  color: #002f34;
+  font-size: 15px !important;
+  margin-bottom: 8px;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer ul li a{
+ font-size: 12px;
+ color: gray;
+
+}
+
+footer ul li a:hover{
+  color: #002f34 !important;
+  text-decoration: none;
+}
+
+
+/* ========================== */
+/* Footer Bottom */
+/* ========================== */
+.footer-bottom{
+  background-color: #002f34 !important;
+  color: white;
+  font-size: 13px;
+  padding: 16px 0;
+}
+
+.footer-bottom span{
+  font-weight: 500;
+}
+.footer-bottom .s-2{
+  text-align: end;
+}
+
+.footer-bottom .light-text {
+  font-weight: 400;
+}
+
+.home-top-image{
+  background-position: 50% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/* ========================== */
+/* Item Detail */
+/* ========================== */
+.detail-page .breadcrumbs,
+.detail-page .breadcrumbs a{
+  font-size: 12px;
+  text-decoration: none;
+  color: rgba(0, 47, 52, .64);
+}
+
+.detail-page .images-card img{
+  height: 415px
+}
+
+.detail-page .detail-card{
+  font-size: 14px;
+}
+
+.detail-page .detail-card .title{
+  color: gray;
+}
+
+.detail-page .price-card .card-title{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.detail-page .price-card .meta,
+.detail-page .price-card .excerpt{
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.detail-page .price-card .location {
+  color: gray;
+  font-size: 11px;
+}
+
+.detail-page .seller-card .btn-primary{
+  background-color: #002f34 !important;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 5px solid #002f34;
+}
+
+.detail-page .seller-card .btn-primary:hover{
+  background-color: white !important;
+  color: #002f34 !important;
+  font-size: 14px;
+  font-weight: 600;
+  border: 5px solid #002f34;
+}
+
+/* ========================== */
+/* Single Item Card */
+/* ========================== */
+.single-item-card .card-body{
+  padding: 0.5rem;
+}
+
+.single-item-card a{
+  text-decoration: none !important;
+  color: #002F34 !important;
+}
+
+.single-item-card .card-body .card-title{
+  margin: 7px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.single-item-card .card-body .excerpt{
+  font-size: 14px;
+  color: gray;
+}
+
+.single-item-card .card-body .meta {
+  font-size: 12px;
+  color: gray;
+}
+
+/* ========================== */
+/* Category Page */
+/* ========================== */
+.load-more-btn .btn{
+  border: 3px solid #002f34;
+  font-weight: 600;
+}
+
+.load-more-btn .btn:hover{
+  background-color: #002f34;
+  border: 3px solid #002f34;
+  color: white;
+}
+
+/* ========================== */
+/* Sidebar */
+/* ========================== */
+.search-form .main-label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.search-form input,
+.search-form input[type=checkbox] label {
+  font-size: 14px;
+}
+
+.search-form .btn{
+  background-color: #002f34;
+  border: 3px solid #002f34;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* ========================== */
+/* POST AD */
+/* ========================== */
+.new-ad-post .categories{
+  border: 1px solid gray;
+}
+
+/* ========================== */
+/* Auth Modal Buttons */
+/* ========================== */
+.auth-modal{
+  padding: 30px;
+}
+
+.auth-modal .btn {
+  border: 2px solid #002f34;
+  font-weight: 600;
+  background: white;
+  color: #002f34;
+  font-size: 15px;
+}
+
+.auth-modal .btn:hover {
+  background-color: #002f34;
+  color: white;
+}
+
+
+/* ========================== */
+/* Post Ad Form */
+/* ========================== */
+.post-ad-form{
+  font-size: 14px;
+}
+
+.post-ad-form .label{
+  font-weight: 600;
+}
+
+.post-ad-form input::-webkit-outer-spin-button,
+.post-ad-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hiddenStyle{
+  display: none;
+}
+
+.list-group-flush>.list-group-item {
+  padding: 0.35rem 0 !important;
+  font-size: 15px;
+  border: 0 !important;
+}
+
+.list-group-flush>.list-group-item a{
+  text-decoration: none !important;
+  color: #212529 !important
+}
